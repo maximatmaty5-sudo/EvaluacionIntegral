@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-controller"></i> GameZone
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Sobre Nosotros</h2>
+        <p class="text-center">
+            GameZone es una tienda gamer dedicada a ofrecer computadoras,
+            accesorios y consolas de calidad para todos los jugadores.
+        </p>
+    </div>
+
+    <div class="container text-center mb-5">
+        <button class="btn btn-primary"
+            data-bs-toggle="collapse"
+            data-bs-target="#historia">
+            Ver nuestra historia
+        </button>
+        <div class="collapse mt-3" id="historia">
+            <div class="card card-body">
+                GameZone nació con el objetivo de brindar productos gamer
+                de calidad a precios accesibles y ofrecer una buena atención
+                a cada cliente.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group">
+                <a class="list-group-item list-group-item-action" href="#mision">Misión</a>
+                <a class="list-group-item list-group-item-action" href="#vision">Visión</a>
+                <a class="list-group-item list-group-item-action" href="#valores">Valores</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div data-bs-spy="scroll"
+                    data-bs-target=".list-group"
+                    class="scrollspy-example p-3 border rounded"
+                    tabindex="0"
+                    style="height:300px; overflow:auto;">
+                    <h4 id="mision">Misión</h4>
+                    <p>
+                    Brindar productos gamer de buena calidad con excelente atención.
+                    </p>
+                    <h4 id="vision">Visión</h4>
+                    <p>
+                    Ser una de las tiendas gamer más reconocidas del país.
+                    </p>
+                    <h4 id="valores">Valores</h4>
+                    <p>
+                    Responsabilidad, innovación, honestidad y compromiso con nuestros clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+        <div class="accordion" id="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#uno">
+                    ¿Realizan envíos?
+                </button>
+                </h2>
+                <div id="uno"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Sí, enviamos nuestros productos a todo el Perú.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dos">
+                    ¿Los productos tienen garantía?
+                </button>
+                </h2>
+                <div id="dos"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faq">
+                <div class="accordion-body">
+                    Todos nuestros productos cuentan con garantía.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#tres">
+                    ¿Aceptan tarjetas?
+                </button>
+                </h2>
+                <div id="tres"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faq">
+                <div class="accordion-body">
+                    Sí, aceptamos tarjetas de débito y crédito.
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        © 2026 GameZone
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

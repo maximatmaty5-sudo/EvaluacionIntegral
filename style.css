@@ -1,0 +1,15 @@
+body{
+    background:#f8f9fa;
+}
+
+.carousel img{
+    height:500px;
+}
+
+section p{
+    color:#555;
+}
+
+footer{
+    margin-top:40px;
+}
